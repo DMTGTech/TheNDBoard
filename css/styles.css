@@ -8,6 +8,15 @@ html {
   left: -300em; 
 } 
 
+body {
+    opacity : 0;
+    transition : opacity 1s ease; 
+}
+
+.loaded {
+   opacity : 1;
+}
+
 div#menu { 
    margin: 0; 
    padding: .3em 0 .3em 0; 
